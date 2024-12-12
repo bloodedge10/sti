@@ -1,0 +1,92 @@
+<div id="navbar">
+<header>
+    <div onclick="toggleSlideover()" class="BtnContacto">
+        <span>Contacto</span>
+    </div>
+
+    <div id="slideover" class="slideover">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleSlideover()">&times;</a>
+<!-- Formulario de contacto -->
+<form id="contact-form">
+    <h2>Contáctanos</h2>
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Mensaje:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- Botón independiente de WhatsApp -->
+<a href="https://wa.me/56956282768?text=Hola,%20necesito%20más%20información" 
+target="_blank" 
+class="whatsapp-button">
+Enviar WhatsApp
+</a>
+
+
+</div>
+    </div>
+   </header>
+
+    <nav id="navbar">
+        <!-- Logotipo -->
+         <a href="index.html">
+        <img src="../images/logoblanco.png" alt="Logotipo" width="100" height="40" >
+    </a>
+    
+        <!-- Botón hamburguesa que abrirá el slideover desde la izquierda -->
+        <div class="nav-toggle" onclick="toggleSlideoverLeft()">☰</div>
+    
+        <!-- Menú normal (visible en pantallas grandes) -->
+        <ul id="menu">
+            <li><a href="#home">Inicio</a></li>
+            <li class="submenu">
+                <a href="#home">Empresa</a>
+                <!-- Submenú -->
+                <ul>
+                    <li><a href="#service1">Inspección Técnica</a></li>
+                    <li><a href="#service2">Consultoría Especializada</a></li>
+                    <li><a href="#service3">Evaluación de Proyectos</a></li>
+                </ul>
+            </li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="#services">Proyectos</a></li>
+            <li><a href="#contact">Clientes</a></li>
+            <li><a href="#contact">Acreditaciones</a></li>
+            <li><a href="#contact">Certificaciones</a></li>
+            <li><a href="#contact">SGC</a></li>
+        </ul>
+    </nav>
+
+    <!-- Nuevo slideover que se abrirá desde la izquierda -->
+  <div id="slideover-left" class="slideover-left">
+    <a href="javascript:void(0)" class="closebtn" onclick="toggleSlideoverLeft()">&times;</a>
+    <ul id="menu">
+        <li><a href="#home">Inicio</a></li>
+        <li class="submenu">
+            <a href="#home">Empresa</a>
+            <!-- Submenú -->
+            <ul>
+                <li><a href="#service1">Inspección Técnica</a></li>
+                <li><a href="#service2">Consultoría Especializada</a></li>
+                <li><a href="#service3">Evaluación de Proyectos</a></li>
+            </ul>
+        </li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="#services">Proyectos</a></li>
+        <li><a href="#contact">Clientes</a></li>
+        <li><a href="#contact">Acreditaciones</a></li>
+        <li><a href="#contact">Certificaciones</a></li>
+        <li><a href="#contact">SGC</a></li>
+    </ul>
+    </div>
+
+
+</div>
+
+</div>
